@@ -1,4 +1,4 @@
-# DataEntry-Application Explanation and System requirement
+# DataEntry-Application Explanation and System requirements
 
 - The application uses QT C++ for the devlopment.
 
