@@ -96,11 +96,18 @@ void MainWindow::on_pushButton_2_clicked()
     }
 
     qDebug()<< flag_lower<<flag_upper<< flag_num;
-    for (i=0;i<=64;i++)
+    for (i=0;i<=47;i++)
     {
         if (ui->lineEdit_6->text().contains(char(i)))
             flag_specialOrSpace=true;
     }
+
+    for (i=58;i<=64;i++)
+    {
+        if (ui->lineEdit_6->text().contains(char(i)))
+            flag_specialOrSpace=true;
+    }
+
 
     for(i=123;i<=255;i++)
     {

@@ -67,11 +67,16 @@ void UserPanel::on_pushButton_2_clicked()
 void UserPanel::on_lineEdit_3_returnPressed()
 {
   editEnded();
+  qDebug()<<"here in return";
+  return;
+
 }
 
 void UserPanel::on_lineEdit_3_editingFinished()
 {
   editEnded();
+  return;
+
 }
 
 void UserPanel::editEnded()
